@@ -26,8 +26,7 @@ export default function Signup() {
     const handleSubmit = (e) => {
         e.preventDefault()
         if (validate()) {
-            console.log('Formulario válido:', form)
-            alert('Formulario válido — revisa la consola. (No se ha integrado backend)')
+            alert('Registro completo')
             setForm({ name: '', email: '', password: '' })
             setErrors({})
             //Recordatorio, colocar ka coniguracion fireBase
