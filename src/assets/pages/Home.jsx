@@ -11,7 +11,7 @@ const mockTracks = [
 export default function Home() {
     const handlePlay = (track) => {
         console.log('Reproducir:', track)
-        // aquí podrías enviar el track a un Player central
+        
         alert(`Play: ${track.title} - ${track.artist}`)
     }
 

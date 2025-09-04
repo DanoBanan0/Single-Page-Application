@@ -28,9 +28,9 @@ export default function Signup() {
         if (validate()) {
             console.log('Formulario válido:', form)
             alert('Formulario válido — revisa la consola. (No se ha integrado backend)')
-            // puntos extra: aquí podrías enviar al backend o guardar en localStorage
             setForm({ name: '', email: '', password: '' })
             setErrors({})
+            //Recordatorio, colocar ka coniguracion fireBase
         }
     }
 
